@@ -6,7 +6,7 @@ public class CmdRechercheNom implements Commande {
     private final Dns dns;
     private final AdresseIP ip;
 
-    public CmdRechercheIP(Dns dns, AdresseIP ip) {
+    public CmdRechercheNom(Dns dns, AdresseIP ip) {
         this.dns = dns;
         this.ip = ip;
     }

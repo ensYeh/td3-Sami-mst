@@ -1,5 +1,7 @@
 package fr.uvsq.cprog.collex.commande;
 
+import java.io.IOException;
+
 import fr.uvsq.cprog.collex.*;
 
 public class CmdAddItem implements Commande {
@@ -13,7 +15,11 @@ public class CmdAddItem implements Commande {
 
     @Override
     public String execute() {
-        DnsItem item = dns.addItem(item);
+        try {
+        dns.addItem(item.getIp(),item.getNom());
         return item.toString() +"ajouté";
+    } catch (java.io.IOException e) {
+        return "Erreur d'accès au fichier DNS : " + e.getMessage();
     }
+}
 }
