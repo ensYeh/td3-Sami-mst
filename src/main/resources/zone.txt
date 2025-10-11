@@ -1,2 +1,2 @@
-hello.com 10.10.10.10
-sami.com 1.1.1.1
+help.hello.com 2.2.2.2
+hhh.help.com 3.3.3.3

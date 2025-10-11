@@ -23,8 +23,4 @@ public class AdresseIP {
         return o instanceof AdresseIP && ((AdresseIP) o).ip.equals(this.ip);
     }
 
-    @Override
-    public int hashCode() {
-        return ip.hashCode();
-    }
 }

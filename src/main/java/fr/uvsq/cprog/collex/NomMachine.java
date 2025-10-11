@@ -31,8 +31,4 @@ public class NomMachine {
         return o instanceof NomMachine && ((NomMachine) o).nom.equals(this.nom);
     }
 
-    @Override
-    public int hashCode() {
-        return nom.hashCode();
-    }
 }

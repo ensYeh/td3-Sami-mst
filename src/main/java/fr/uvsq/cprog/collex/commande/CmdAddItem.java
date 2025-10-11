@@ -21,5 +21,9 @@ public class CmdAddItem implements Commande {
     } catch (java.io.IOException e) {
         return "Erreur d'accès au fichier DNS : " + e.getMessage();
     }
+    catch (IllegalArgumentException e) {
+        return e.getMessage();
+    }
+    
 }
 }
