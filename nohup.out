@@ -1,5 +1,0 @@
-No matching keywords found in images.
-Traceback (most recent call last):
-  File "/home/sami/Desktop/cours/java/TD3/td3-Sami-mst/../../../../studefi/studefi.py", line 77, in <module>
-    sleep(30)
-KeyboardInterrupt

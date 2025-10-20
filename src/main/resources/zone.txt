@@ -1,6 +1,3 @@
-help.hello.com 2.2.2.2
-hhh.help.com 3.3.3.3
-aaa.bbb.ccc.uvsq.com 4.4.4.4
-haha.bebe.uvsq.com 5.5.5.5
-bbb.uvsq.com 7.7.7.7
-bbbc.uvsq.com 6.6.6.6
+ecampus.uvsq.fr 193.51.25.12
+poste.uvsq.fr 193.51.31.154 
+www.uvsq.fr 193.51.31.90
