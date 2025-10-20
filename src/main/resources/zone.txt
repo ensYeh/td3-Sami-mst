@@ -1,3 +1,5 @@
 ecampus.uvsq.fr 193.51.25.12
-poste.uvsq.fr 193.51.31.154 
+poste.uvsq.fr 193.51.31.154
 www.uvsq.fr 193.51.31.90
+aaa.uvsq.fr 1.1.1.1
+bbb.uvsq.fr 255.255.255.255
