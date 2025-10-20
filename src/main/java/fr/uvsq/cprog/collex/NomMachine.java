@@ -18,7 +18,8 @@ public class NomMachine {
     }
 
     public String getDomaine() {
-        return nom.substring(nom.indexOf('.') + 1);
+        int TLD_index=nom.lastIndexOf('.', nom.lastIndexOf('.') - 1);
+        return nom.substring(TLD_index + 1);
     }
 
     @Override

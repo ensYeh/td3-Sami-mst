@@ -41,7 +41,7 @@ public class Dns {
     public List<DnsItem> getItems(String domaine, boolean sortByIp) {
         return items.stream()
                 .filter(i -> i.getNom().getDomaine().equals(domaine))
-                .sorted(Comparator.comparing(sortByIp ? i -> i.getIp().getIp() : i -> i.getNom().getMachine()))
+                .sorted(Comparator.comparing(sortByIp ? i -> i.getNom().getMachine() : i -> i.getIp().getIp()))
                 .collect(Collectors.toList());
     }
 
